@@ -1,0 +1,55 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .login-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .login-page p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .login-with-google-btn {
+    background-color: #db4437;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-with-google-btn:hover {
+    background-color: #c1351d;
+  }
+  
+  .login-with-google-btn:focus {
+    outline: none;
+  }
+  
+  /* Optional: Add styles for a loader/spinner */
+  .loader {
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #3498db;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+    margin-left: 5px;
+    display: none; /* Hide by default */
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
