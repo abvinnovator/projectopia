@@ -1,4 +1,3 @@
-Here's a sample README.md file for your project built using React.js, Firebase, Redux, and Context API:
 
 # Projectopia
 
